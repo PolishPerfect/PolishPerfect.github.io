@@ -8,7 +8,7 @@
     <header>
   
       <ul>
-         <li><img src="images/Brand-Name.png"alt="PolishPerfect"></li>
+         <li><img src="images/Brand Name.png"alt=""></li>
          <li> <a href="" class="active">Home</a> </li>
          <li> <a href="">Nail Polish</a> </li>
          <li> <a href="">Top & Base coat</a> </li>
@@ -17,4 +17,4 @@
       </ul>
     </header>
   </body>
-</html> 
+</html>

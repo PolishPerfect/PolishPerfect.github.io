@@ -1,6 +1,43 @@
+body {
+ background-color: ;
+ padding: 0;
+ margin: 0;
+ overflow-x: hidden;
+ text-align: center;
+}
 header {
-  background-color: #f9bee9;
-  padding: 0.001mm;
-  text-align: ;
-  font-size: 35px;
+  background-color: #f2c3f3;
+  padding: 15px;
+  font-size: px;
+  font-family:;
   color: white;
+  box-shadow: 0 0 3px #000;
+
+}
+
+header li {
+  display: inline;
+  padding-left: 45px;
+}
+header li a {
+  transition:.3 ease;
+  color:333; 
+  text-decoration: none;
+  padding:13px
+}
+  
+header li a:hover {
+  color: royalblue;
+}
+
+header li img 
+{
+  width:250px;
+  float:left; 
+  margin-top: -20px;
+}
+
+.active 
+{
+  color:royalblue
+}

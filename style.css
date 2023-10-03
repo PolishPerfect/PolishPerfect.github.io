@@ -36,8 +36,50 @@ header li img
   float:left; 
   margin-top: -20px;
 }
+footer 
+{
+   background-color: #f2c3f3;
+  padding: 15px;
+  font-size: px;
+  font-family:;
+  color: white;
+  box-shadow: 0 0 3px #000;
+}
+
+ /*#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
+ /* #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 5.0rem;        /* Footer height */
+}
+
+footer li {
+  display: inline;
+  padding-left: 45px;
+}
+
+footer li a {
+  transition:.3 ease;
+  color:333; 
+  text-decoration: none;
+  padding:13px
+}
+
+footer li a hoover {
+   color: royalblue;
+}
 
 .active 
 {
   color:royalblue
 }
+
+/*  <div id="page-container">
+    <div id="content-wrap"> */

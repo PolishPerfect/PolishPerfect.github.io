@@ -46,14 +46,14 @@ footer
   box-shadow: 0 0 3px #000;
 }
 
- /*#page-container {
+ #page-container {
   position: relative;
   min-height: 100vh;
 }
 #content-wrap {
   padding-bottom: 2.5rem;    /* Footer height */
 }
- /* #footer {
+  #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -71,9 +71,15 @@ footer li a {
   text-decoration: none;
   padding:13px
 }
+footer li img 
+{
+  width:200px;
+  float:right ; 
+  margin-top: -20px;
+}
 
-footer li a hoover {
-   color: royalblue;
+footer li a:hover {
+color: royalblue;
 }
 
 .active 
@@ -81,5 +87,3 @@ footer li a hoover {
   color:royalblue
 }
 
-/*  <div id="page-container">
-    <div id="content-wrap"> */

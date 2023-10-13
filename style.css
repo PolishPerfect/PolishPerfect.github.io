@@ -1,5 +1,7 @@
+
+
 body {
- background-color: ;
+ 
  padding: 0;
  margin: 0;
  overflow-x: hidden;
@@ -40,9 +42,10 @@ footer
 {
    background-color: #f2c3f3;
   padding: 15px;
-  font-size: px;
+  font-size: 20px;
   font-family:;
-  color: white;
+  text-align: center;
+  color: #8c35bb;
   box-shadow: 0 0 3px #000;
 }
 
@@ -69,21 +72,22 @@ footer li a {
   transition:.3 ease;
   color:333; 
   text-decoration: none;
-  padding:13px
+  padding:13px;
 }
 footer li img 
 {
   width:200px;
-  float:right ; 
+  float:right; 
+  padding-right: 40px;
   margin-top: -20px;
+ 
 }
 
-footer li a:hover {
-color: royalblue;
-}
+
 
 .active 
 {
   color:royalblue
 }
+
 

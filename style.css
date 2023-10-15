@@ -6,12 +6,13 @@ body {
  margin: 0;
  overflow-x: hidden;
  text-align: center;
-  height: 100%;
+  
   background-image:url(https://media.istockphoto.com/id/1170507681/photo/nail-polish-bottles-on-colorful-background.jpg?s=170667a&w=0&k=20&c=5Py3gn1K1wtecPdRYXp4P2LjzTUauISevkF_RUreP9Q=) ;
   background-repeat:no-repeat ; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-
+ 
   position: relative;
+  
 }
 header {
   background-color: #f2c3f3; /* header style */ 
@@ -47,7 +48,7 @@ header li img  /*header logo */
 footer 
 {
    background-color: #f2c3f3; /* footer style */
-  padding: 15px;
+  padding: 5px;
   font-size: 20px;
   font-family:;
   text-align: center;
@@ -57,14 +58,16 @@ footer
 
  #page-container {
   position:relative ;
-  min-height: 100vh;
+  min-height: 130vh;
 }
 
   #footer {
+    height:10%;
   position:absolute;
   bottom: 0;
   width: 100%;
-     height: 5.0rem; /* Footer height */
+      /* Footer height */
+    
 }
 
 footer li {
@@ -72,7 +75,7 @@ footer li {
  
 }
 
-footer li a {           /*footer link style*/ 
+footer li a {           /*footer style*/ 
   transition:.3 ease;
   color:333; 
   text-decoration: none;
@@ -125,9 +128,45 @@ text-align: center;
   
 }
 
-div.gallery:hover {
-  border: 1px solid #f82036;
+div.gallery:hover{
+  border: 3px solid #f82036;
 }
+
+div.review {
+  margin-right: 25%;
+  
+  margin-top: 3%;
+  padding-left:50px;
+  float:left;
+  width:180px;
+
+}
+
+div.review img {
+width: 300%;
+height: auto ;
+
+}
+
+
+div.about us {
+ 
+  margin-top: 5%;
+  padding-left:50px;
+  float:left;
+   width:180px;
+  
+
+}
+
+div.about us img {
+width: 100%;
+height: auto ;
+
+}
+
+
+
 
 .active /* laat zien op welke pagina je bent*/ 
 {
